@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout tools:context=".MainActivity" android:padding="24dp" android:background="#FFCCFFFF" android:gravity="center" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginBottom="24dp" android:textStyle="bold" android:letterSpacing="0.4" android:textSize="19sp" android:textColor="@color/black" android:text="Ras Anjing" android:id="@+id/txJudul"/>
+
+    <ImageView android:layout_height="200dp" android:layout_width="wrap_content" android:layout_marginBottom="16dp" android:id="@+id/gambarHewan" android:scaleType="fitCenter" android:src="@drawable/anjing_kintamani"/>
+
+    <TextView android:padding="4dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:textSize="17sp" android:textColor="@color/black" android:text="Jenis Hewan" android:id="@+id/txJenis"/>
+
+    <TextView android:padding="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="italic" android:textColor="@color/black" android:text="Asal" android:id="@+id/txAsal"/>
+
+    <TextView android:padding="5dp" android:gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/black" android:text="Deskripsi hewan" android:id="@+id/txDeskripsi" android:layout_marginTop="8dp"/>
+
+</LinearLayout>

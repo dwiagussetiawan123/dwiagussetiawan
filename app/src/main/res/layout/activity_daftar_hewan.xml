@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout tools:context=".DaftarHewanActivity" android:padding="24dp" android:background="#FFCCFFFF" android:gravity="center" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:gravity="center" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Daftar Ras Hewan" android:textSize="17sp" android:textColor="@color/black" android:textStyle="bold" android:layout_marginBottom="16dp" android:id="@+id/text_title_daftar"/>
+
+    <ListView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/listview_daftar_hewan"/>
+
+</LinearLayout>

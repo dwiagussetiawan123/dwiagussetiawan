@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout tools:context=".MainActivity" android:padding="24dp" android:gravity="center" android:background="#FFCCFFFF" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginBottom="32dp" android:textSize="29sp" android:textColor="@color/black" android:textStyle="bold" android:text="Kucing ,Anjing,Ular"/>
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <ImageButton android:padding="16dp" android:layout_height="150dp" android:layout_width="0dp" android:scaleType="fitCenter" android:src="@drawable/kucing_anggora" android:layout_weight="1" android:layout_margin="8dp" android:id="@+id/btn_buka_ras_kucing"/>
+
+    <ImageButton android:padding="16dp" android:layout_height="150dp" android:layout_width="0dp" android:scaleType="fitCenter" android:src="@drawable/anjing_kintamani" android:layout_weight="1" android:layout_margin="8dp" android:id="@+id/btn_buka_ras_anjing"/>
+
+    <ImageButton android:padding="16dp" android:layout_height="150dp" android:layout_width="0dp" android:scaleType="fitCenter" android:src="@drawable/ular_kobra" android:layout_weight="1" android:layout_margin="8dp" android:id="@+id/btn_buka_ras_ular"/>
+
+</LinearLayout>
+
+    <TextView android:padding="10dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginBottom="32dp" android:textColor="@color/black" android:textStyle="italic" android:text="(Pilih gambar untuk membuka galeri)"/>
+
+    <Button android:layout_height="79dp" android:layout_width="198dp" android:textColor="@color/black" android:text="profil" android:id="@+id/dialog_button" android:layout_marginTop="51dp" android:backgroundTint="@color/white"/>
+
+</LinearLayout>
